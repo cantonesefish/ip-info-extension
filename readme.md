@@ -1,4 +1,4 @@
-English|![简体中文](readme_zh-CN.md)
+English|[简体中文](readme_zh-CN.md)
 
 # Dual-stack IP Info Tool
 
