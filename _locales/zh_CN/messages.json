@@ -1,0 +1,47 @@
+{
+  "appName": { "message": "双栈IP信息查询工具" },
+  "appDesc": { "message": "自动获取当前网站及本机IPv4/IPv6信息，支持国内外双通道IP检测及Cloudflare Colo透视" },
+  
+  "lbl_current_site": { "message": "当前网站" },
+  "lbl_protocol": { "message": "连接协议" },
+  "lbl_local_env": { "message": "本机环境" },
+  
+  "btn_mode": { "message": "模式" },
+  "btn_token": { "message": "Token" },
+  "btn_refresh": { "message": "刷新" },
+  "btn_github": { "message": "GitHub" },
+  
+  "sec_domestic": { "message": "国内出口" },
+  "sec_global": { "message": "国际出口" },
+  
+  "type_site": { "message": "Web服务器" },
+  "type_ipv4": { "message": "IPv4" },
+  "type_ipv6": { "message": "IPv6" },
+  
+  "field_city": { "message": "城市" },
+  "field_region": { "message": "地区" },
+  "field_country": { "message": "国家" },
+  "field_org": { "message": "组织" },
+  "field_timezone": { "message": "时区" },
+  "field_company": { "message": "公司" },
+  "field_asn": { "message": "ASN" },
+  
+  "lbl_type": { "message": "类型" },
+  "lbl_anycast": { "message": "Anycast" },
+  "lbl_colo": { "message": "数据中心" },
+  
+  "msg_no_site_ip": { "message": "暂无网站IP信息" },
+  "msg_refresh_tip": { "message": "请刷新网页" },
+  "msg_detecting": { "message": "正在检测网络环境..." },
+  "msg_no_info": { "message": "未获取到详细信息" },
+  "msg_probing": { "message": "探测中..." },
+  "msg_unknown": { "message": "未知" },
+  "msg_timeout": { "message": "探测超时" },
+  "msg_failed": { "message": "探测失败" },
+  
+  "modal_title": { "message": "设置 API Token" },
+  "modal_desc": { "message": "输入您的 ipinfo.io Token 以获取详细信息" },
+  "modal_placeholder": { "message": "输入 Token..." },
+  "btn_cancel": { "message": "取消" },
+  "btn_save": { "message": "保存" }
+}

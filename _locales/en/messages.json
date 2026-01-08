@@ -1,0 +1,47 @@
+{
+  "appName": { "message": "Dual-stack IP Info Tool" },
+  "appDesc": { "message": "Show IPv4/IPv6 info for current site and local network, with Cloudflare Colo detection." },
+  
+  "lbl_current_site": { "message": "Current Site" },
+  "lbl_protocol": { "message": "Protocol" },
+  "lbl_local_env": { "message": "Local Environment" },
+  
+  "btn_mode": { "message": "Mode" },
+  "btn_token": { "message": "Token" },
+  "btn_refresh": { "message": "Refresh" },
+  "btn_github": { "message": "GitHub" },
+  
+  "sec_domestic": { "message": "Domestic" },
+  "sec_global": { "message": "Global" },
+  
+  "type_site": { "message": "Web Server" },
+  "type_ipv4": { "message": "IPv4" },
+  "type_ipv6": { "message": "IPv6" },
+  
+  "field_city": { "message": "City" },
+  "field_region": { "message": "Region" },
+  "field_country": { "message": "Country" },
+  "field_org": { "message": "Org" },
+  "field_timezone": { "message": "Timezone" },
+  "field_company": { "message": "Company" },
+  "field_asn": { "message": "ASN" },
+  
+  "lbl_type": { "message": "Type" },
+  "lbl_anycast": { "message": "Anycast" },
+  "lbl_colo": { "message": "Data Center" },
+  
+  "msg_no_site_ip": { "message": "No Site IP Info" },
+  "msg_refresh_tip": { "message": "Please Refresh" },
+  "msg_detecting": { "message": "Detecting..." },
+  "msg_no_info": { "message": "No Detail Info" },
+  "msg_probing": { "message": "Probing..." },
+  "msg_unknown": { "message": "Unknown" },
+  "msg_timeout": { "message": "Timeout" },
+  "msg_failed": { "message": "Failed" },
+  
+  "modal_title": { "message": "Set API Token" },
+  "modal_desc": { "message": "Enter your ipinfo.io Token for details" },
+  "modal_placeholder": { "message": "Enter Token..." },
+  "btn_cancel": { "message": "Cancel" },
+  "btn_save": { "message": "Save" }
+}

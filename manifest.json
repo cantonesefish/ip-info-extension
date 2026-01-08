@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_appName__",
+  "description": "__MSG_appDesc__",
+  "version": "1.0.0",
+  "default_locale": "en",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "webRequest",
+    "tabs",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>",
+    "https://4.ipw.cn/*",
+    "https://6.ipw.cn/*",
+    "https://ipv4.agi.li/*",
+    "https://ipv6.agi.li/*",
+    "https://ipinfo.io/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "__MSG_appName__",
+    "default_icon": {
+      "128": "icon.png"
+    }
+  },
+  "icons": {
+    "128": "icon.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["flags/*.svg", "flags-png/*.png", "cloudflare.json"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
